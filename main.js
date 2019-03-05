@@ -1,7 +1,7 @@
 // array of integers for the data join
 //  var data = [25, 20, 10, 12, 15]
 
-d3.csv("as.csv").then(function(data){
+d3.csv("ages.csv").then(function(data){
     data.forEach(function(d) {
         d.age = +d.age;
 });
